@@ -39,16 +39,23 @@ const persone = [
         foto : 'barbara-ramos-graphic-designer.jpg'
     }
 ];
-const lista = document.querySelector('ul');
+const main = document.querySelector('main');
 for(let i = 0; i < persone.length; i++){
     const persona = persone[i];
-    const nome = document.createElement('li');
-    const ruolo = document.createElement('li');
-    const foto = document.createElement('li');
-    const fotoPercorso = document.createElement('img');
-    fotoPercorso.src = 'img/' + persona.foto;
-    nome.innerHTML = 'Nome: ' + persona.nome;
-    ruolo.innerHTML = 'Ruolo: ' + persona.ruolo;
-    foto.append(fotoPercorso);
-    lista.append(nome, ruolo, foto);
+    const box = document.createElement('div');
+    box.className = 'box';
+    const content = document.createElement('div');
+    content.className = 'content';
+    const nome = document.createElement('h2');
+    const ruolo = document.createElement('span');
+    const foto = document.createElement('img');
+    foto.src = 'img/' + persona.foto;
+    nome.innerHTML = persona.nome;
+    ruolo.innerHTML = persona.ruolo;
+    content.append(foto, nome, ruolo);
+    box.append(content);
+    main.append(box);
+    console.log(persona.nome);
+    console.log(persona.ruolo);
+    console.log(persona.foto);
 }

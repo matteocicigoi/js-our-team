@@ -1,0 +1,48 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* common */
+body{
+    background-color: #f0f0f0;
+}
+/* header */
+header {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+header h1{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+/* main */
+main {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+main .box{
+    width: calc(100% / 3);
+    padding: 20px;
+}
+
+main .box .content {
+    background-color: white;
+    color: grey;
+    text-align: center;
+    padding-bottom: 15px;
+}
+main .content img {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
