@@ -45,8 +45,10 @@ for(let i = 0; i < persone.length; i++){
     const nome = document.createElement('li');
     const ruolo = document.createElement('li');
     const foto = document.createElement('li');
+    const fotoPercorso = document.createElement('img');
+    fotoPercorso.src = 'img/' + persona.foto;
     nome.innerHTML = 'Nome: ' + persona.nome;
     ruolo.innerHTML = 'Ruolo: ' + persona.ruolo;
-    foto.innerHTML = 'Foto: ' + persona.foto
+    foto.append(fotoPercorso);
     lista.append(nome, ruolo, foto);
 }
