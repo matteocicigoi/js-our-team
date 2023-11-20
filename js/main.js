@@ -39,3 +39,10 @@ const persone = [
         foto : 'barbara-ramos-graphic-designer.jpg'
     }
 ];
+
+for(let i = 0; i < persone.length; i++){
+    const persona = persone[i];
+    console.log(persona.nome);
+    console.log(persona.ruolo);
+    console.log(persona.foto);
+}
