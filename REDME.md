@@ -4,4 +4,4 @@
     - oggetto
         - nome : valore
         - ruolo : valore
-        - img : nome immagine
+        - foto : nome immagine

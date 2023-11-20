@@ -6,36 +6,36 @@ const persone = [
     {
         nome : 'Wayne Barnett',
         ruolo : 'Founder & CEO',
-        img : 'wayne-barnett-founder-ceo.jpg'
+        foto : 'wayne-barnett-founder-ceo.jpg'
     },
     // seconda persona
     {
         nome : 'Angela Caroll',
         ruolo : 'Chief Editor',
-        img : 'angela-caroll-chief-editor.jpg'
+        foto : 'angela-caroll-chief-editor.jpg'
     },
     // terza persona
     {
         nome : 'Walter Gordon',
         ruolo : 'Office Manager',
-        img : 'walter-gordon-office-manager.jpg'
+        foto : 'walter-gordon-office-manager.jpg'
     },
     // quarta persona
     {
         nome : 'Angela Lopez',
         ruolo : 'Social Media Manager',
-        img : 'angela-lopez-social-media-manager.jpg'
+        foto : 'angela-lopez-social-media-manager.jpg'
     },
     // quinta persona
     {
         nome : 'Scott Estrada',
         ruolo : 'Developer',
-        img : 'scott-estrada-developer.jpg'
+        foto : 'scott-estrada-developer.jpg'
     },
     // sesta persona
     {
         nome : 'Barbara Ramos',
         ruolo : 'Graphic Designer',
-        img : 'barbara-ramos-graphic-designer.jpg'
+        foto : 'barbara-ramos-graphic-designer.jpg'
     }
 ];
