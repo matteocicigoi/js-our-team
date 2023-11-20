@@ -39,10 +39,14 @@ const persone = [
         foto : 'barbara-ramos-graphic-designer.jpg'
     }
 ];
-
+const lista = document.querySelector('ul');
 for(let i = 0; i < persone.length; i++){
     const persona = persone[i];
-    console.log(persona.nome);
-    console.log(persona.ruolo);
-    console.log(persona.foto);
+    const nome = document.createElement('li');
+    const ruolo = document.createElement('li');
+    const foto = document.createElement('li');
+    nome.innerHTML = 'Nome: ' + persona.nome;
+    ruolo.innerHTML = 'Ruolo: ' + persona.ruolo;
+    foto.innerHTML = 'Foto: ' + persona.foto
+    lista.append(nome, ruolo, foto);
 }
