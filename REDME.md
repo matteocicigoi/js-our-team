@@ -2,6 +2,6 @@
 
 - array persone
     - oggetto
-        - name : valore
-        - role : valore
+        - nome : valore
+        - ruolo : valore
         - img : nome immagine
